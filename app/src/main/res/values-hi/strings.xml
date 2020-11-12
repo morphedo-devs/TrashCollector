@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Shwach ATM</string>
+    <string name="welcometext">Welcome to EcoMaxGo !</string>
+    <string name="selectlanguage">Please Select Language :</string>
+    <string name="english">English</string>
+    <string name="hindi">हिन्दी</string>
+    <string name="liketodo">"आप क्या करना पसंद करेंगे?"</string>
+    <string name="deposittrash">कचरा डालकर इ-कॅश पाएं</string>
+    <string name="smartphoneuser">SMARTPHONE USER</string>
+    <string name="nonsmartuser">NON SMARTPHONE USER</string>
+    <string name="entermobile">कृपया अपना मोबाइल नंबर डालें</string>
+    <string name="ok">OK</string>
+    <string name="entermobilenumber">कृपया अपना मोबाइल नंबर डालें</string>
+    <string name="enteradar">अपना आधार कार्ड नंबर डालें</string>
+    <string name="verifymobile">मोबाइल नंबर सत्यापित करें</string>
+    <string name="editnumber">परिवर्तन करें</string>
+    <string name="next">आगामी</string>
+    <string name="hotel">होटल\nबुकिंग</string>
+    <string name="flight">फ़्लाइट\nबुक करना</string>
+    <string name="mobilerecharge">मोबाइल\nरिचार्ज</string>
+    <string name="billpayment">बिल\nभुगतान</string>
+    <string name="trashtype">कृपया चुनने की आप किस प्रकार का कचरा डालना चाहेंगे</string>
+    <string name="plastic">प्लास्टिक</string>
+    <string name="glass">कांच</string>
+    <string name="tincans">तीन</string>
+    <string name="otherwaste">अन्य कचरा</string>
+    <string name="pleasedropthetrash">कृपया कचरे को खांचे में डालें...</string>
+    <string name="checktrsah">आपका कचरा सत्यापित किया जा रहा है...</string>
+    <string name="sorry">आपके द्वारा खाचें में \n डाला गया कचरा और आपका चुना हुआ विकल्प अलग है \n कृपया खांचे में कोई वैध  वस्तु डालें</string>
+    <string name="othertrash">अन्य कचरा पारकर चुने</string>
+    <string name="thankyou">देश को स्वच्छ रखने के लिए धनयवाद!</string>
+    <string name="wallet">वॉलेट सर्विस का उपयोग करें</string>
+    <string name="validate">Trash validate!</string>
+    <string name="morepplastic">यदि आपके पास और प्लास्टिक कचरा है तो उसे खचे मई डालें</string>
+    <string name="cleancountry">देश को स्वच्छ रखने के लिए धनयवाद \n आपके MAX वॉलेट में 1 रुपया दाल दिया जायेंगे \n जब पैसे आपके अकाउंट में पहुंच जाये तब आपको सूचित किया जायेगा</string>
+    <string name="exit">अंत</string>
+    <string name="done">पूर्ण</string>
+    <string name="back">पीछे  जाये</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="usewallet">वॉलेट सर्विस का उपयोग करें (औ-टी-पी  आवश्यक हैं)</string>
+</resources>

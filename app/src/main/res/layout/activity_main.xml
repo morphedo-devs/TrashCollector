@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#fff"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:gravity="center"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="0.5"
+            android:weightSum="1"
+            android:orientation="vertical"
+            android:layout_height="0dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="0.5"
+                android:gravity="center_vertical"
+                android:layout_height="0dp">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:src="@drawable/maxlogo"
+                    android:layout_marginLeft="35dp"
+                    android:layout_height="wrap_content">
+
+                </ImageView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="0.5"
+                android:orientation="vertical"
+                android:layout_height="0dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="@string/selectlanguage"
+                    android:textColor="#CDDC39"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="34sp"
+                    android:layout_height="wrap_content">
+
+
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="कृपया अपनी भाषा चुनें"
+                    android:textStyle="bold"
+                    android:layout_marginTop="20dp"
+                    android:textColor="#CDDC39"
+                    android:textSize="32dp"
+                    android:gravity="center"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="0.5"
+            android:weightSum="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_height="0dp">
+<LinearLayout
+    android:layout_width="0dp"
+    android:layout_weight="0.3"
+    android:weightSum="1"
+    android:gravity="center|top"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight=".3"
+        android:id="@+id/english"
+        android:onClick="English"
+        android:background="@drawable/buttonoutline"
+        android:layout_height="0dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            android:textColor="#CDDC39"
+            android:gravity="center"
+            android:text="@string/english"
+            android:layout_height="match_parent">
+
+        </TextView>
+
+    </LinearLayout>
+
+</LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="0.1"
+                android:layout_height="match_parent">
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="0.3"
+                android:weightSum="1"
+                android:gravity="center|top"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_weight=".3"
+                    android:id="@+id/hindi"
+                    android:onClick="SelectHindi"
+                    android:background="@drawable/buttonoutline"
+                    android:layout_height="0dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:textSize="34sp"
+                        android:textStyle="bold"
+                        android:textColor="#CDDC39"
+                        android:gravity="center"
+                        android:text="@string/hindi"
+                        android:layout_height="match_parent">
+
+                    </TextView>
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

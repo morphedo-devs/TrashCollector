@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorOrange"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:gravity="center"
+    tools:context=".Activity.NumberConfirmationScreen">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_weight="0.35"
+    android:layout_height="0dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:textColor="@color/white"
+        android:text="@string/verifymobile"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:gravity="center|bottom"
+        android:layout_height="match_parent">
+
+    </TextView>
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight=".65"
+        android:gravity="center"
+        android:weightSum="1"
+        android:orientation="horizontal"
+        android:layout_height="0dp">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.35"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="@drawable/outline"
+                android:layout_margin="4dp"
+                android:layout_height="120dp">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:textStyle="bold"
+                    android:gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="34sp"
+                    android:hint="999999999"
+                    android:maxLines="1"
+                    android:text="999999999"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:layout_height="match_parent">
+
+                </EditText>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_margin="4dp"
+                android:gravity="center"
+                android:layout_height="150dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_margin="4dp"
+                    android:background="@color/green"
+                    android:layout_height="120dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:text="@string/editnumber"
+                        android:textStyle="bold"
+                        android:textSize="34sp"
+                        android:textColor="@color/white"
+                        android:gravity="center"
+                        android:layout_height="match_parent">
+
+                    </TextView>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_margin="4dp"
+                android:gravity="center"
+                android:layout_height="150dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_margin="4dp"
+                    android:background="@color/green"
+                    android:layout_height="120dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:text="@string/next"
+                        android:textStyle="bold"
+                        android:textSize="34sp"
+                        android:id="@+id/next"
+                        android:onClick="Next"
+                        android:textColor="@color/white"
+                        android:gravity="center"
+                        android:layout_height="match_parent">
+
+                    </TextView>
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

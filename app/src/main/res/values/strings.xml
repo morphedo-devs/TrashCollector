@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Swachh ATM</string>
+    <string name="welcometext">Welcome to EcoMaxGo !</string>
+    <string name="selectlanguage">Please Chose your Language :</string>
+    <string name="english">English</string>
+    <string name="hindi">हिन्दी</string>
+    <string name="liketodo">What would you like to do?</string>
+    <string name="deposittrash">Deposit trash and get e-cash</string>
+    <string name="usewallet">Use wallet service \n(OTP Verification Required)</string>
+    <string name="smartphoneuser">SMARTPHONE USER</string>
+    <string name="nonsmartuser">NON SMARTPHONE USER</string>
+    <string name="entermobile">Please enter your mobile number and press</string>
+    <string name="ok">OK</string>
+    <string name="entermobilenumber">enter your mobile number</string>
+    <string name="enteradar">Please enter your Aadhar card number</string>
+    <string name="verifymobile">Please verify your mobile number: </string>
+    <string name="editnumber">Edit Number</string>
+    <string name="next">Next</string>
+    <string name="hotel">Hotel\nBooking</string>
+    <string name="flight">Flight\nBooking</string>
+    <string name="mobilerecharge">Mobile\nRecharge</string>
+    <string name="billpayment">Bill\nPayment</string>
+    <string name="trashtype">Please select the type of trash you would like to dispose</string>
+    <string name="glass">Glass</string>
+    <string name="tincans">Tin</string>
+    <string name="otherwaste">Other</string>
+    <string name="pleasedropthetrash">Please drop the trash in the slot...</string>
+    <string name="sorry">Sorry,the trash type you have selected does not match with \n the trash type you put in the input slot \n Please put a valid item in the input slot</string>
+    <string name="othertrash">Continue with other trash</string>
+    <string name="thankyou">Thank you for keeping your country clean!</string>
+    <string name="wallet">Use Wallet Service</string>
+    <string name="validate">Trash validate!</string>
+    <string name="morepplastic">if you have more  items to dispose, put them in the input slot</string>
+    <string name="cleancountry">Thank you for keeping your country clean \n you max wallet will be credited with Rs.1 \n your will be notified once you have received the amount</string>
+    <string name="exit">Exit</string>
+    <string name="done">Done</string>
+    <string name="back">Back</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="checktrsah">Checking trash type...</string>
+    <string name="plastic">Plastic</string>
+</resources>
